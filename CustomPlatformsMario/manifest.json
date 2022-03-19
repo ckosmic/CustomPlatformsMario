@@ -1,0 +1,24 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "CustomPlatformsMario",
+  "name": "CustomPlatformsMario",
+  "author": "ckosmic",
+  "version": "0.0.1",
+  "description": "",
+  "gameVersion": "1.18.3",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "SiraUtil": "^3.0.0",
+    "Custom Platforms": "^6.1.10"
+  },
+  "loadAfter": [ "Custom Platforms" ],
+  "features": {
+    "SM64BS.CustomPlugin": {
+      "Name": "Custom Platforms Mario",
+      "Author": "ckosmic",
+      "Description": "Enables SM64 collision on CustomPlatforms",
+      "PluginId": "com.christiankosman.customplatformsmario",
+      "MainClass": "TestMarioPlugin.MainClass"
+    }
+  }
+}
